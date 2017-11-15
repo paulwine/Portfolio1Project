@@ -6,36 +6,39 @@
    #wrapper{
     padding: 20px;
     width: 950px;
-    background-color: silver;
+    background-color: white ;
     margin: 0px auto;
    }
    #header{
-    margin-bottom: 20px;   
+ 
     height: 150px;
     background-color: green;
+
+
    }
    #navigation{
     display: inline-block;
     vertical-align: top;
     height: 300px;
-    width: 200px;
+    width: 450px;
     margin-right: 15px;
-    background-color: blue;
+
    }
    #main_content{
     display: inline-block;
-    padding: 15px;
-    height: 400px;
-    width: 700px;
-    background-color: red;
+    height: 290px;
+    width: 450px;
+    background-color:rgb(222, 210, 231);
+    margin-top: 15px;
+    padding: 5px;
    }
    .subcontents{
     display: inline-block;
-    margin-bottom: 15px;
-    margin-right: 10px;
-    height: 200px;
-    width: 210px;
-    background-color: yellow;
+   margin-left:-5px; 
+   margin-top:-5px;
+    height: 40px;
+    width: 460px;
+    background-color: rgb(97, 107, 109);
    }
    #advertisement{
     display: inline-block;
@@ -46,3 +49,19 @@
     background-color: purple;
    }
    
+   img{
+    margin-top:10px;
+    padding: 5px;
+    border-color: rgb(80, 80, 80);
+    border-width: 5px;
+
+   }
+   h2{
+       color: white;
+       font-size: 18px;
+       margin-left: 15px;
+       margin-top: 10px;
+   }
+   p{
+       
+   }
