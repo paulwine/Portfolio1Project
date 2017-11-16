@@ -11,8 +11,9 @@
    }
    #backdrop{
        width:900;
-       background: linear-gradient(to bottom right, #1F0D11, #705963);
+       background: radial-gradient(#614951, #1F0D11);
        padding: 20px;
+       
    }
    #blockArray{
        display:block;
@@ -25,7 +26,9 @@
        width:280px;
        Height: 600px;
        margin-right: 20px;
-       display: inline-block; 
+       display: inline-block;
+       border-radius: 1px; 
+      
        
    }
 
@@ -37,21 +40,27 @@
         
    }
    #box2{
-    height: 200px;
+    height: 180px;
     width: 280px;
     display: block;
      background: linear-gradient(to bottom right, #fdfcfd, #dbcdda);
+     border-radius: 2px; 
 }
 #boxHead{
     height: 40px;
     width: 280px;
     display: block;
     background: linear-gradient( #AAA9AF, #8A8995, #AAA9AF);
+    border-radius: 2px; 
+    
 }
    #header{
  
     height: 50px;
-    background-color: rgb(228, 228, 228);
+    background: linear-gradient(#F2F2F2, #FEFEFE);
+    padding-top: 12px;
+    border-radius: 2px; 
+   
 
 
    }
@@ -63,23 +72,26 @@
     width: 420px;
     margin-right: 15px;
     background-color: #C0C0C0;
+    border-radius: 2px; 
 
    }
    #main_content{
 
-  float: right;
+    display: inline-block;
     height: 300px;
-    width: 470px;
+    width: 455px;
     background-color:rgb(222, 210, 231);
     background: linear-gradient(to bottom right, #fdfcfd, #dbcdda);
+    border-radius: 2px; 
   
    }
    .subcontents{
     display: inline-block;
   
     height: 40px;
-    width: 470px;
+    width: 455px;
     background: linear-gradient( #AAA9AF, #8A8995, #AAA9AF);
+    border-radius: 2px; 
    }
    #advertisement{
     display: inline-block;
@@ -88,7 +100,9 @@
     width: 640px;
     background-color: purple;
    }
-   
+   #imgbox{
+        height: 50%;
+   }
    img{
    height:98%;
    width:98%;
@@ -97,10 +111,10 @@
    position: relative;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%)
+   transform: translate(-50%, -50%);
    }
    h1{
-       font-family: Arial, Helvetica, sans-serif;
+       font-family: "Comic Sans MS", cursive, sans-serif;
        display: inline;
        padding: 15px;
        margin-left: 15px;
@@ -123,6 +137,8 @@
    h3{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+  padding: 10px;
+ 
    }
    h5{
        float: right;
@@ -134,3 +150,66 @@
       padding: 15px;
       margin-right: 15px;
    }
+    h6{
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        font-weight:normal;
+
+    }
+    .img{
+        height: 25%;
+        width: 15%;
+        display: inline-block;
+        padding: 2px;
+        margin-top: 10px;
+        margin-left: 5px;
+
+    }
+
+    #clickbox{
+       
+        background-color: #387D63;
+        color: white;
+        margin-left: 100px;
+        margin-top: 10px;
+        border-radius:5px;
+        display: inline-block;
+        text-align: center;
+        padding:5px;
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+
+    #footerspace{
+        background: linear-gradient(#F2F2F2, #FEFEFE );
+        height: 60px;
+        padding:10px;
+       
+
+    }
+
+    #informationtab{
+        height: 12px;
+        width: 500px;
+        background: linear-gradient(#F2F2F2, #FEFEFE );
+      margin-bottom: 10px;
+      margin-left: 35%;
+       
+
+    }
+    #socialtab{
+        height: 12px;
+        width: 500px;
+        background: linear-gradient(#F2F2F2, #FEFEFE );
+      margin-bottom: 10px;
+      margin-left: 25%;
+       
+
+    }
+    .thumbnail{
+        height: 15px;
+        width: 15px;
+        display: inline-block;
+
+    }
